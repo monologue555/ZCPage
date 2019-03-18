@@ -1,0 +1,6 @@
+framework module ZCPage {
+  umbrella header "ZCPage-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "ETUProfile",
+  "version": "0.1.0",
+  "summary": "A short description of ETUProfile.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/monologue555/ETUProfile",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "monologue555": "monologue@etutech.com"
+  },
+  "source": {
+    "git": "https://github.com/monologue555/ETUProfile.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ETUProfile/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SnapKit": [
+      ">= 4.0.0"
+    ],
+    "Pageboy": [
+      "~> 3.0"
+    ],
+    "Segmentio": [
+      "~> 3.3"
+    ]
+  },
+  "swift_version": "4.2"
+}

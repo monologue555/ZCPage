@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZCPage_Example' do
+  pod 'ZCPage', :path => '../'
+
+  target 'ZCPage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

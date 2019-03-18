@@ -1,0 +1,31 @@
+PODS:
+  - Pageboy (3.0.5)
+  - Segmentio (3.3)
+  - SnapKit (4.2.0)
+  - ZCPage (1.0.1):
+    - Pageboy (~> 3.0)
+    - Segmentio (~> 3.3)
+    - SnapKit (>= 4.0.0)
+
+DEPENDENCIES:
+  - ZCPage (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Pageboy
+    - Segmentio
+    - SnapKit
+
+EXTERNAL SOURCES:
+  ZCPage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Pageboy: 64f8b1ac4b43eb622897425a1825223418261e2e
+  Segmentio: 4ff49aa4f4c916998c0d886c549ce62ca9eae251
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  ZCPage: afdf4950fc5c3402a759ca4e1340b2e9b561adb8
+
+PODFILE CHECKSUM: dfa96ce8b55a202b9e41d41032831c13c9de02a5
+
+COCOAPODS: 1.6.0.beta.2
