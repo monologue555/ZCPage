@@ -8,4 +8,4 @@
 
 主要效果如下：
 
-![](/Users/monologue/Desktop/ZCPage/demo.gif)
+![](demo.gif)
