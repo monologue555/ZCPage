@@ -3,16 +3,16 @@
   "version": "1.0.1",
   "summary": "A short description of ZCPage.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://cichang8.com/etu/iOS/ZCPage",
+  "homepage": "https://github.com/monologue555/ZCPage",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "monologue555": "monologue@etutech.com"
+    "monologue555": "monologuedb@gmail.com"
   },
   "source": {
-    "git": "https://cichang8.com/etu/iOS/ZCPage.git",
+    "git": "https://github.com/monologue555/ZCPage.git",
     "tag": "1.0.1"
   },
   "platforms": {
@@ -31,5 +31,5 @@
       "~> 3.3"
     ]
   },
-  "swift_version": "4.2"
+  "swift_versions": "4.2"
 }

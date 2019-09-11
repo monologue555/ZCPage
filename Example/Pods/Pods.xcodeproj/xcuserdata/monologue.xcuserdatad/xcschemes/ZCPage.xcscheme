@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "422815BB5BEAD44D1120D065FC6E6441"
+               BlueprintIdentifier = "891601CC514831D8327C27EEE0F8A213"
+               BuildableName = "ZCPage.framework"
                BlueprintName = "ZCPage"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "ZCPage.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -18,7 +18,7 @@ class ExampleHeaderViewController: ZCPageHeaderViewController {
         return 220
     }
     
-    func ctRefresh() {
+    func zcRefresh() {
         print("【ExampleHeaderViewController】刷新")
         print("0")
         nameLabel.text = "中文名"

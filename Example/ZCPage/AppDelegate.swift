@@ -73,24 +73,13 @@ extension AppDelegate: ZCPageViewDataSource {
     func viewController(by index: Int) -> ZCPageChildViewController {
         switch index {
         case 0:
-            return ArchivesViewController()
-        case 1:
             let flowLayout = UICollectionViewFlowLayout()
             flowLayout.itemSize = .init(width: 100, height: 100)
             flowLayout.scrollDirection = .vertical
             let vc = RecordsViewController(collectionViewLayout: flowLayout)
             return vc
-        default:
-            fatalError("Impossible!!!")
-        }
-    }
-    
-    func scrollView(viewController: UIViewController, index: Int) -> UIScrollView? {
-        switch index {
-        case 0:
-            return (viewController as? ArchivesViewController)?.tableView
         case 1:
-            return (viewController as? RecordsViewController)?.collectionView
+            return ArchivesViewController()
         default:
             fatalError("Impossible!!!")
         }

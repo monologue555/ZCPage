@@ -22,6 +22,8 @@ class ArchivesViewController: UITableViewController {
         } else {
             tableView.addSubview(refreshCtr)
         }
+        tableView.tableFooterView = UIView()
+        tableView.isScrollEnabled = false
         refreshCtr.addTarget(self, action: #selector(refresh), for: .valueChanged)
         if #available(iOS 11.0, *) {
             tableView.contentInsetAdjustmentBehavior = .never
@@ -53,11 +55,11 @@ class ArchivesViewController: UITableViewController {
     
 }
 extension ArchivesViewController: ZCPageChildViewControllerProtocol {
-    var ctScrollView: UIScrollView? {
-        return tableView
+    var zcScrollView: UIScrollView? {
+        return nil
     }
     
-    func ctRefresh(completed: @escaping () -> Void) {
+    func zcRefresh(completed: @escaping () -> Void) {
         print("【ArchivesViewController】刷新")
         DispatchQueue.global().asyncAfter(deadline: .now() + 3) {
             print("3")
@@ -65,7 +67,7 @@ extension ArchivesViewController: ZCPageChildViewControllerProtocol {
         }
     }
     
-    func ctLoadMore() {
+    func zcLoadMore() {
         print("【ArchivesViewController】加载更多")
     }
 }

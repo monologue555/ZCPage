@@ -38,11 +38,11 @@ class RecordsViewController: UICollectionViewController {
 }
 
 extension RecordsViewController: ZCPageChildViewControllerProtocol {
-    var ctScrollView: UIScrollView? {
+    var zcScrollView: UIScrollView? {
         return collectionView
     }
     
-    func ctRefresh(completed: @escaping () -> Void) {
+    func zcRefresh(completed: @escaping () -> Void) {
         print("【RecordsViewController】刷新")
         DispatchQueue.global().asyncAfter(deadline: .now() + 2) {
             print("2")
@@ -50,7 +50,7 @@ extension RecordsViewController: ZCPageChildViewControllerProtocol {
         }
     }
     
-    func ctLoadMore() {
+    func zcLoadMore() {
         print("【RecordsViewController】加载更多")
     }
 }
